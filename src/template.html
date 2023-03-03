@@ -5,10 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <title>Приветикс!</title>
   </head>
 
-  <body>
-    <div id="root"></div>
+  <body> 
+    <header class="header">
+      <div class="container">
+        <div class="header__flex">
+
+          <img class="header__logo" src="./images/furniture_logo.png">
+  
+          <div class="header__menu">
+            <a class="header__menu_item">Home</a>
+            <a class="header__menu_item">Services</a>
+            <a class="header__menu_item">Doctors</a>
+            <a class="header__menu_item">Products</a>
+            <a class="header__menu_item">Gallery</a>
+            <a class="header__menu_item">Gallery2</a>
+          </div>
+  
+        </div>
+      </div>
+    </header>
+
+    <main></main>
+
+    <footer></footer>
   </body>
 </html>

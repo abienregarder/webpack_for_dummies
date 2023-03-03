@@ -1,15 +1,25 @@
 html {
   font-size: $font-size;
   font-family: $font-family;
-  background: $background-color;
-  color: $font-color;
+  // background: $background-color;
+  color: #333;
   line-height: 1.4;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: auto;
-  text-align: center;
-  max-width: $page-width;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1248px;
+  padding: 0 24px;
+  margin: 0 auto;
 }
 
 h1 {
